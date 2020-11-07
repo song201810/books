@@ -7,6 +7,7 @@ import java.util.Date;
  */
 public class Auth {
     private Long id;
+    private String name;
     private String authPath;//接口路径
     private boolean status;//权限状态
     private String desc;//权限描述，是个什么权限干嘛用的
